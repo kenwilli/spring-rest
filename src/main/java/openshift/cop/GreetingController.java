@@ -8,7 +8,7 @@ import org.springframework.web.servlet.view.RedirectView;
 @RestController
 public class GreetingController {
 
-    private static final String template = "Hello, %s!";
+    private static final String template = "Greetings, %s!";
     private final Counter counter;
 
     public GreetingController() {
